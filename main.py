@@ -77,16 +77,19 @@ def update_weighting():
             pane_tuple[5].config(state="normal")
 
 def calculate_grade():
-    if top_pane[2].get() == "points":
-        points_earned = sum([int(t[3].get()) for t in assignment_panes])
-        points_possible = sum([int(t[4].get()) for t in assignment_panes])
-        grade_string = "%" + str(round(points_earned/points_possible*100, 2))
-        top_pane[4].config(text=grade_string)
-    if top_pane[2].get() == "weighted":
-        total_percentages = sum([int(t[3].get()) / int(t[4].get()) * int(t[5].get()) for t in assignment_panes])
-        total_weights = sum([int(t[5].get()) for t in assignment_panes])
-        grade_string = "%" + str(round(total_percentages/total_weights*100, 2))
-        top_pane[4].config(text=grade_string)
+    try:
+        if top_pane[2].get() == "points":
+            points_earned = sum([int(t[3].get()) for t in assignment_panes])
+            points_possible = sum([int(t[4].get()) for t in assignment_panes])
+            grade_string = "%" + str(round(points_earned/points_possible*100, 2))
+            top_pane[4].config(text=grade_string)
+        if top_pane[2].get() == "weighted":
+            total_percentages = sum([int(t[3].get()) / int(t[4].get()) * int(t[5].get()) for t in assignment_panes])
+            total_weights = sum([int(t[5].get()) for t in assignment_panes])
+            grade_string = "%" + str(round(total_percentages/total_weights*100, 2))
+            top_pane[4].config(text=grade_string)
+    except Exception:
+        popup("Error", "Please make sure all values are positive.")
 
 
 
