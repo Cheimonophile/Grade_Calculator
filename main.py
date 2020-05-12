@@ -24,7 +24,7 @@ def create_bottom_pane():
 
 def create_assignment_pane():
     pane = PanedWindow(frame)
-    minus_button = Button(pane, text=" - ")
+    minus_button = Button(pane, text=" - ", command=lambda: remove_assignment(minus_button))
     minus_button.grid(row=0, column=0, padx=0, pady=0)
     name_label = Label(pane, text="Assignment:")
     name_label.grid(row=0, column=1, padx=0, pady=0)
@@ -43,6 +43,12 @@ def create_assignment_pane():
     weight_entry = Entry(pane, width=4)
     weight_entry.grid(row=0, column=8, padx=0, pady=0)
     assignment_panes.append((pane, minus_button, name_label, name_entry, grade_label, score_entry, divide_label, points_entry, weight_label, weight_entry))
+    update()
+
+def remove_assignment(minus_button):
+    minus_button.master.destroy()
+    minus_button_index = [t[1] for t in assignment_panes].index(minus_button)
+    assignment_panes.pop(minus_button_index)
     update()
 
 def update():
