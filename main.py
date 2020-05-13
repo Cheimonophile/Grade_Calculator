@@ -105,7 +105,7 @@ def popup(title, message):
     popup_label.grid(row=0, padx=10, pady=25)
     popup_button = Button(popup, text=" OK ", command=popup.destroy)
     popup_button.grid(row=2, pady=5)
-    title.mainloop()
+    popup.mainloop()
 
 
 
