@@ -55,6 +55,9 @@ def create_assignment_pane():
     update()
 
 def remove_assignment(minus_button):
+    if len(assignment_panes) < 2:
+        return
+
     minus_button.master.destroy()
     minus_button_index = [t[1] for t in assignment_panes].index(minus_button)
     assignment_panes.pop(minus_button_index)
@@ -62,6 +65,7 @@ def remove_assignment(minus_button):
 
 def update():
     update_weighting()
+    clear_grade()
 
     #cycles through all of the panes
     for i in range(len(assignment_panes)):
@@ -91,6 +95,18 @@ def calculate_grade():
     except Exception:
         popup("Error", "Please make sure all values are positive.")
 
+def clear_grade():
+    top_pane[4].config(text="")
+
+def popup(title, message):
+    popup = Tk()
+    popup.title(title)
+    popup_label = Label(popup, text=message)
+    popup_label.grid(row=0, padx=10, pady=25)
+    popup_button = Button(popup, text=" OK ", command=popup.destroy)
+    popup_button.grid(row=2, pady=5)
+    title.mainloop()
+
 
 
 #Frame Creation
@@ -101,6 +117,9 @@ frame.title("Grade Calculator")
 top_pane = create_top_pane()
 assignment_panes = []
 bottom_pane = create_bottom_pane()
+
+#create the first pane
+create_assignment_pane()
 
 #Mainloop
 frame.mainloop()
