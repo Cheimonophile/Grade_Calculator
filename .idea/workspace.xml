@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a501fd00-2ddd-486d-a709-94eb704e60f9" name="Default Changelist" comment="- Made the program object-oriented." />
+    <list id="28f40217-0a0e-4d5b-af5e-96150d2c00c9" name="- Preset the grades and their weights. - Set up the weighting radio buttons. - Set up the grade calculation." comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectId" id="1bFCseSQr26b9oNe3DlqVNfMtB5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Grade_Calculator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a501fd00-2ddd-486d-a709-94eb704e60f9" name="Default Changelist" comment="" />
+      <changelist id="28f40217-0a0e-4d5b-af5e-96150d2c00c9" name="- Preset the grades and their weights. - Set up the weighting radio buttons. - Set up the grade calculation." comment="" />
+      <created>1588218663413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588218663413</updated>
+      <workItem from="1588218667159" duration="2393000" />
+      <workItem from="1588647752159" duration="90000" />
+      <workItem from="1589310012259" duration="6633000" />
+      <workItem from="1589323595354" duration="3316000" />
+      <workItem from="1589406868475" duration="8784000" />
+      <workItem from="1590689778845" duration="171000" />
+      <workItem from="1592233398637" duration="409000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit of Grade Calculator.&#10;- Got it to the point where the plus button works.">
+      <created>1588221060474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588221060474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Got the minus button to work in all of the assignments.">
+      <created>1589310988392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589310988392</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Preset the grades and their weights.&#10;- Set up the weighting radio buttons.&#10;- Set up the grade calculation.">
+      <created>1589317449391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317449391</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Preset the grades and their weights.&#10;- Set up the weighting radio buttons.&#10;- Set up the grade calculation.">
+      <created>1589324913034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589324913034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Changed the program so it never has fewer than one assignment pane.&#10;- Added exception handling.&#10;- Made an all-purpose popup frame.">
+      <created>1589327760151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589327760151</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Changed the program so it never has fewer than one assignment pane.&#10;- Added exception handling.&#10;- Made an all-purpose popup function.">
+      <created>1589328061967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328061967</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Fixed an error with the popup function.">
+      <created>1589328490718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589328490718</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Made the program object-oriented.">
+      <created>1589416423488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589416423488</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit of Grade Calculator.&#10;- Got it to the point where the plus button works." />
+    <MESSAGE value="- Got the minus button to work in all of the assignments." />
+    <MESSAGE value="- Preset the grades and their weights.&#10;- Set up the weighting radio buttons.&#10;- Set up the grade calculation." />
+    <MESSAGE value="- Changed the program so it never has fewer than one assignment pane.&#10;- Added exception handling.&#10;- Made an all-purpose popup frame." />
+    <MESSAGE value="- Changed the program so it never has fewer than one assignment pane.&#10;- Added exception handling.&#10;- Made an all-purpose popup function." />
+    <MESSAGE value="- Fixed an error with the popup function." />
+    <MESSAGE value="- Made the program object-oriented." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Made the program object-oriented." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="354" y="135" key="#Inspections" timestamp="1592234686535">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1592234686535" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592233422407">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1592233422407" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589414441599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1589414441599" />
+    <state x="417" y="65" key="#main" timestamp="1588219089724">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="417" y="65" key="#main/0.0.1440.900@0.0.1440.900" timestamp="1588219089724" />
+    <state width="699" height="304" key="GridCell.Tab.0.bottom" timestamp="1589418337224">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589416220095" />
+    <state width="699" height="304" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589418337224" />
+    <state width="699" height="304" key="GridCell.Tab.0.center" timestamp="1589418337222">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589416220093" />
+    <state width="699" height="304" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1589418337222" />
+    <state width="699" height="304" key="GridCell.Tab.0.left" timestamp="1589418337220">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589416220092" />
+    <state width="699" height="304" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1589418337220" />
+    <state width="699" height="304" key="GridCell.Tab.0.right" timestamp="1589418337223">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589416220094" />
+    <state width="699" height="304" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1589418337223" />
+    <state width="699" height="304" key="GridCell.Tab.1.bottom" timestamp="1589418337226">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589409133685" />
+    <state width="699" height="304" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1589418337226" />
+    <state width="699" height="304" key="GridCell.Tab.1.center" timestamp="1589418337225">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589409133682" />
+    <state width="699" height="304" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1589418337225" />
+    <state width="699" height="304" key="GridCell.Tab.1.left" timestamp="1589418337224">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589409133679" />
+    <state width="699" height="304" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1589418337224" />
+    <state width="699" height="304" key="GridCell.Tab.1.right" timestamp="1589418337225">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="699" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589409133683" />
+    <state width="699" height="304" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1589418337225" />
+    <state x="572" y="371" key="VCS.ChangelistChooser" timestamp="1589325037550">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="572" y="371" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1589325037550" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1589416436407">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1589416436407" />
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589407312768">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1589407312768" />
+    <state x="420" y="46" width="600" height="807" key="find.popup" timestamp="1589415897812">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="420" y="46" width="600" height="807" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1589415897812" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589416121222">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589416121222" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Grade_Calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1592234692080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
